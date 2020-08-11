@@ -4,11 +4,17 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {FormsModule} from '@angular/forms';
 import { LikesComponent } from './likes/likes.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LikesComponent
+    LikesComponent,
+    HeaderComponent,
+    FooterComponent,
+    BodyComponent
   ],
     imports: [
         BrowserModule,
